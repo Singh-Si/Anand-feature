@@ -1,7 +1,6 @@
 const mongoose = require('mongoose')
 
-
-mongoose.connect('mongodb://127.0.0.1:27017/your-database-name', {
+mongoose.connect('mongodb://127.0.0.1git :27017/your-database-name', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
