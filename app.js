@@ -1,6 +1,6 @@
 const express = require("express");
 require("./config/congig")
-
+console.log("anand")
 const app = express()
 
 app.get("/",(req,res)=>{
